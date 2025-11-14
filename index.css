@@ -100,6 +100,40 @@
     button:hover {
       background: #0097a7;
     }
+
+    /* ====== PROJETOS GITHUB ====== */
+    #lista-projetos-github {
+    max-width: 800px;
+    margin: 20px auto;
+    }
+
+    .projeto-item {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 12px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .projeto-item h3 {
+        margin-top: 0;
+    }
+
+    .projeto-item h3 a {
+        text-decoration: none;
+        color: #0366d6;
+        font-size: 1.25em;
+    }
+    
+    .projeto-item h3 a:hover {
+        text-decoration: underline;
+    }
+
+    .projeto-item p {
+        color: #586069;
+        margin-bottom: 0;
+    }
+ 
     /* ====== RESPONSIVO ====== */
     @media (max-width: 600px) {
       nav {
